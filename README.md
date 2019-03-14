@@ -27,4 +27,3 @@ node node file.js
 ##### 以及这个插件
 
 ![](https://ws1.sinaimg.cn/large/8660d1bbly1g12bbqlw1wj20u10i8gom.jpg)
-
