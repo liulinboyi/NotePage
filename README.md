@@ -2,7 +2,7 @@
 
 **欢迎访问小刘的网页收藏**
 
-网址为<http://blog.yuanfanglai.top/Some-Web-Page/>
+网址为<https://blog.yuanfanglai.top/NodePage/>
 
 
 
