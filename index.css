@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+body>div:nth-child(1){
+    margin-bottom: 50px;
+    font-size: 2em;
+    color: #888;
+}
