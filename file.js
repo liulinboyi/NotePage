@@ -19,13 +19,14 @@ function fileDisplay(filePath){
             console.warn(err)
         }else{
             files = files.filter(item => !(/(^|\/)\.[^\/\.]/g).test(item));
-            files = files.filter(item => !(/^.*?\.(js|css|md)/g).test(item));
+            files = files.filter(item => (/^.*?\.(html|zip)/g).test(item));
             //遍历读取到的文件列表
             files.forEach(function(filename){
                 //获取当前文件的绝对路径
                 // var filedir = path.join(filePath,filename);
                 var filedir = path.join(filename);
                 all.unshift(filedir)
+                // all.push(filedir)
                 // console.log(filedir)
                 //根据文件路径获取文件信息，返回一个fs.Stats对象
                 fs.stat(filedir,function(eror,stats){
