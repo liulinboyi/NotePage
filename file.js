@@ -20,6 +20,7 @@ function fileDisplay(filePath){
         }else{
             files = files.filter(item => !(/(^|\/)\.[^\/\.]/g).test(item));
             files = files.filter(item => (/^.*?\.(html|zip)/g).test(item));
+            files = files.filter(item => !(/^index.html/g).test(item));
             //遍历读取到的文件列表
             files.forEach(function(filename){
                 //获取当前文件的绝对路径
